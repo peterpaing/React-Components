@@ -1,0 +1,60 @@
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding: 0;
+}
+body{
+  background-color: white;
+  padding: 60px;
+}
+
+button{
+  width: 67px;
+  height: 24px;
+  margin: 4px;
+  border: none;
+}
+
+.red{
+  background-color: #FEE2E2;
+  color:#991B1B;
+}
+
+.yellow{
+  background-color: #FEF3C7;
+  color:#92400E;
+}
+
+.green{
+  background-color: #D1FAE5;
+  color:#065F46;
+}
+
+.blue{
+  background-color: #DBEAFE;
+  color:#1E40AF;
+}
+
+.indigo{
+  background-color: #E0E7FF;
+  color:#3730A3;
+}
+
+.purple{
+  background-color: #EDE9FE;
+  color:#5B21B6;
+}
+
+.pink{
+  background-color: #FCE7F3;
+  color:#9D174D;
+}
+
+.white{
+  background-color:whitesmoke;
+  color:black;
+}
+
+.pill{
+border-radius: 12px;
+}

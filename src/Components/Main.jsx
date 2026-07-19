@@ -25,9 +25,33 @@ export default function Main(){
         <Badges style="pill" color="pink">Button</Badges>
         </section>
 
-        <section className="banner-section">
-            <Banner text="Congratulations!"/>
+        <section className="banner-with-No-Text">
+        <Banner text="Congratulations!" status="success"/>
+        <Banner text="Attention" status="warning"/>
+        <Banner text="There is a problem with your application" status="error"/>
+        <Banner text="Update available"/>
         </section>
+
+        <section className="banner-with-Text">
+
+        <Banner text="Congratulations!" status="success">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam.
+        </Banner>
+
+        <Banner text="Attention" status="warning">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam quo totam eius aperiam dolorum.
+        </Banner>
+
+        <Banner text="There is a problem with your application" status="error">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam quo totam eius aperiam dolorum.
+        </Banner>
+        
+        <Banner text="Update available">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam.
+        </Banner>
+
+        </section>
+        
         </main>
     )
 }

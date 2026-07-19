@@ -18,11 +18,11 @@ export default function Banner({children , status='neutral' , text , ...rest}){
     
     return (
         <div className={`banner-Container ${statusColor}`} {...rest} >
-        <div>
             <img src={statusIcons[status]} alt={`${status} icon`} />
+            <div className='banner-heading'>
             <p>{text}</p>
+            {children && <p className='banner-details'>{children}</p>}
         </div>
-        {children && <p>{children}</p>}
         </div>
     )
 }

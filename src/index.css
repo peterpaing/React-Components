@@ -5,7 +5,8 @@
 }
 body{
   background-color: white;
-  padding: 60px;
+  width: 100vw;
+  padding: 20px;
 }
 
 button{
@@ -57,4 +58,51 @@ button{
 
 .pill{
 border-radius: 12px;
+}
+
+.banner-Container{
+  width: 100%;
+  max-width: 896px;
+  margin-top: 15px;
+  padding: 18px;
+  display: flex;
+  align-items: flex-start;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  gap:4px;
+  border-radius: 8px;
+}
+
+.banner-Container img{
+  width: 16px;
+  margin-top: 3px;
+}
+
+.banner-details{
+  margin-top: 8px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.banner-success{
+  background-color: #ECFDF5;
+  color:#065F46;
+}
+
+.banner-error{
+  background-color:#FEF2F2;
+  color: #92400E;
+}
+
+.banner-warning{
+  background-color: #FFFBEB;
+  color: #92400E;
+}
+
+.banner-neutral{
+  background-color:#EFF6FF;
+  color: #1E40AF;
 }

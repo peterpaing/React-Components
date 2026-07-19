@@ -1,5 +1,5 @@
 import Badges from "./Badges";
-
+import Banner from "./Banner"
 export default function Main(){
     return (
         <main>
@@ -23,6 +23,10 @@ export default function Main(){
         <Badges style="pill" color="indigo">Button</Badges>
         <Badges style="pill" color="purple">Button</Badges>
         <Badges style="pill" color="pink">Button</Badges>
+        </section>
+
+        <section className="banner-section">
+            <Banner text="Congratulations!"/>
         </section>
         </main>
     )

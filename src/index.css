@@ -166,3 +166,50 @@ border-radius: 12px;
   text-align: center;
 }
 
+.no-image-testimonial {
+  width: 100%;
+  max-width: 1358px;
+  max-height: 444px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Inter", sans-serif;
+  background-color: #F9FAFB;
+  background-image: url('./assets/design.png');
+  background-position: bottom left;
+  background-size: 200px auto;
+  background-repeat: no-repeat;
+}
+
+.no-image-container {
+  padding-top: 74px;
+  display: flex;
+  margin: auto;
+  width: 100px;
+}
+
+.no-image-container img {
+  width: 150px;
+  height: 30px;
+}
+
+.no-image-testimonial p {
+  margin-top: 30px;
+  padding: 40px 10px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 36px;
+  text-align: center;
+}
+
+.testimonial-author{  
+padding:32px 20px;
+font-weight: 500;
+font-size: 12px;
+line-height: 24px;
+display: flex;
+flex-direction: column;
+}
+
+

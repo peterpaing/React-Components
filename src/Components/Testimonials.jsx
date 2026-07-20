@@ -3,7 +3,7 @@ import defaultImage from '../assets/defaultImage.png'
 
 export default function Testimonials({ image, children, name, job, ...rest }) {
     return (
-        <div className="testimonial-with-img" {...rest}>
+        <div className={image ? "image-testimonial" : "no-image-testimonial"} {...rest}>
             
             <div className={image ? "image-container" : "no-image-container"}>
                 

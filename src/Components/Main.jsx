@@ -1,5 +1,7 @@
-import Badges from "./Badges";
+import Badges from "./Badges"
 import Banner from "./Banner"
+import Cards from "./Cards"
+
 export default function Main(){
     return (
         <main>
@@ -50,6 +52,12 @@ export default function Main(){
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam.
         </Banner>
 
+        </section>
+
+        <section className="cards">
+        <Cards heading="Easy Deployment">
+            Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.
+        </Cards>
         </section>
         
         </main>

@@ -6,7 +6,13 @@
 body{
   background-color: white;
   width: 100vw;
-  padding: 20px;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px;
 }
 
 button{
@@ -63,7 +69,7 @@ border-radius: 12px;
 .banner-Container{
   width: 100%;
   max-width: 896px;
-  margin-top: 15px;
+  margin: 15px;
   padding: 18px;
   display: flex;
   align-items: flex-start;
@@ -106,3 +112,57 @@ border-radius: 12px;
   background-color:#EFF6FF;
   color: #1E40AF;
 }
+
+.card-container{
+  width: 100%;
+  max-width: 348px;
+  max-height: 208px;
+  margin-top: 30px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color:#F9FAFB;
+  font-family: "Inter", sans-serif;
+  border-radius: 8px;
+  transition:box-shadow 0.2s ease-in-out;
+}
+
+.card-container:hover{
+  box-shadow: 0 4px 25px rgba(0,0,0,0.1);
+}
+
+.icon{
+  width: 48px;
+  height: 48px;
+  position: absolute;
+  top:-10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #3F75FE;
+  border-radius: 6px;
+}
+
+.icon img{
+  width: 18px;
+  height: 20px;
+}
+
+.card-container h3{
+  margin-top: 50px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.card-container p{
+  padding: 24px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #6B7280;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+

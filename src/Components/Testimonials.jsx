@@ -19,7 +19,7 @@ export default function Testimonials({ image, children, name, job, ...rest }) {
             
             <div className="testimonial-author">
                 {name && <span className="author-name">{name}</span>}
-                {job && <span className="author-job">{job}</span>}
+                {job && <span className="author-title">{job}</span>}
             </div>
         </div>
     )

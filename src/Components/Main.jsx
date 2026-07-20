@@ -1,6 +1,8 @@
 import Badges from "./Badges"
 import Banner from "./Banner"
 import Cards from "./Cards"
+import Testimonials from "./Testimonials"
+import userImage from "../assets/UserImg.png"
 
 export default function Main(){
     return (
@@ -58,6 +60,11 @@ export default function Main(){
         <Cards heading="Easy Deployment">
             Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.
         </Cards>
+        </section>
+
+        <section className="testimonials">
+        <Testimonials name="May Andersons" job="Workcation, CTO" 
+        >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed urna nulla vitae laoreet augue. Amet feugiat est integer dolor auctor adipiscing nunc urna, sit. </Testimonials>
         </section>
         
         </main>

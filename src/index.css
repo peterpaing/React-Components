@@ -167,7 +167,7 @@ border-radius: 12px;
 }
 
 .no-image-testimonial {
-  width: 100%;
+  width: 376px;
   max-width: 1358px;
   max-height: 444px;
   margin-top: 30px;
@@ -186,23 +186,23 @@ border-radius: 12px;
   width: 100px;
 }
 
-.no-image-container img {
+.no-image-container img{
   width: 150px;
   height: 30px;
 }
 
 .no-image-testimonial p {
   margin-top: 30px;
-  margin-bottom: 0; /* Fixes browser default gaps */
-  padding: 40px 70px 0 70px;
+  margin-bottom: 0; 
+  padding: 20px;
   font-weight: 500;
   font-size: 16px;
   line-height: 36px;
   text-align: center;
 }
 
-.testimonial-author {
-  padding: 32px 70px;
+.no-image-testimonial .testimonial-author {
+  padding: 20px;
   font-weight: 500;
   font-size: 12px;
   line-height: 24px;
@@ -214,10 +214,62 @@ border-radius: 12px;
   background-repeat: no-repeat;
 }
 
+.image-testimonial{
+  width: 376px;
+  display: flex;
+  margin-top: 100px;
+  flex-direction: column;
+  font-family: "Inter", sans-serif;
+  background-color: #2545B8;
+  position: relative;
+}
+
+.image-testimonial .quote-mark{
+  width:43.63px;
+  height: 35.14px;
+  display: block;
+  margin-top: 151px;
+  margin-left: 20px;
+}
+
+.image-container .user-image {
+  width: 344px; 
+  height: 206px;  
+  border-radius: 12px;
+  position: absolute;
+  top: -90px;
+  left: 0;
+  right: 0;
+  margin: 0 auto; 
+}
+
+.image-testimonial p{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 0%;
+  color: #FFFFFF;
+  padding: 16px;
+
+}
+
+.image-testimonial .testimonial-author{
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 24px;
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+}
+
+
+
 /* Responsive layouts for screens wider than 640px */
 @media (min-width: 640px) {
 
   .no-image-testimonial {
+    width: 1358px;
     height: 300px;
     margin-bottom: 120px;
   }
@@ -226,7 +278,7 @@ border-radius: 12px;
     padding: 15px 295px 0 295px; 
   }
 
-  .testimonial-author {
+  .no-image-testimonial .testimonial-author {
     padding: 20px 0 40px 0;
     display: flex; 
     flex-direction: row;
@@ -234,7 +286,7 @@ border-radius: 12px;
     align-items: center;
   }
 
-  .testimonial-author .author-title::before {
+  .no-image-testimonial .testimonial-author .author-title::before {
     content: "/";
     color: #3F75FE;
     font-weight: 600;

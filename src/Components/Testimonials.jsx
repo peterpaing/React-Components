@@ -7,7 +7,7 @@ export default function Testimonials({ image, children, name, job, ...rest }) {
             
             <div className={image ? "image-container" : "no-image-container"}>
                 
-                <img src={image || defaultImage} alt={`${name || 'User'} profile`} />
+                <img src={image || defaultImage} alt={`${name || 'User'} profile`} className={image ? "user-image" : ""}/>
                 
                
                 <img src={quoteIcon} alt="quote icon" className="quote-mark" />

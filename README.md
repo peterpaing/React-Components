@@ -255,4 +255,4 @@ The `Main.jsx` file demonstrates all available component variants:
 
 ## 📄 License
 
-This project is open source and available under the MIT License.
+This project is open source.

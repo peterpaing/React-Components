@@ -224,23 +224,23 @@ border-radius: 12px;
   position: relative;
 }
 
-.image-testimonial .quote-mark{
-  width:43.63px;
-  height: 35.14px;
-  display: block;
-  margin-top: 151px;
-  margin-left: 20px;
-}
-
 .image-container .user-image {
   width: 344px; 
-  height: 206px;  
+  height: 230px;  
   border-radius: 12px;
   position: absolute;
   top: -90px;
   left: 0;
   right: 0;
   margin: 0 auto; 
+}
+
+.image-testimonial .quote-mark{
+  width:43.63px;
+  height: 35.14px;
+  display: block;
+  margin-top: 160px;
+  margin-left: 20px;
 }
 
 .image-testimonial p{
@@ -292,6 +292,35 @@ border-radius: 12px;
     font-weight: 600;
     margin: 0 12px; 
   }
+
+  .image-testimonial{
+    width: 1358px;
+    height: 350px;
+    padding-left: 450px;
+    padding-right: 90px;
+  }
+
+  .image-container .user-image {
+  width: 384px; 
+  height: 464px;  
+  border-radius: 12px;
+  position: absolute;
+  top: -40px;
+  left: 71px;
+  margin: 0 ; 
+}
+
+.image-testimonial .quote-mark{
+  margin-top: 86px;
+}
+
+.image-testimonial p{
+  font-size: 20px;
+}
+
+.image-testimonial .testimonial-author{
+  font-size: 16px;
+}
 }
 
 

@@ -170,7 +170,7 @@ border-radius: 12px;
   width: 376px;
   max-width: 1358px;
   max-height: 444px;
-  margin-top: 30px;
+  margin-top: 100px;
   margin-bottom: 30px;
   display: flex;
   flex-direction: column;
@@ -226,8 +226,11 @@ border-radius: 12px;
 
 .image-container .user-image {
   width: 344px; 
-  height: 230px;  
+  height: 206px;  
   border-radius: 12px;
+  overflow: hidden; 
+  object-fit: cover;
+  object-position: 20% 20%;
   position: absolute;
   top: -90px;
   left: 0;
